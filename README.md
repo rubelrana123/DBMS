@@ -21,5 +21,6 @@ A medical facility can have multiple doctors, and a doctor can work in multiple 
 
 https://lily-plate-b6a.notion.site/Case-Study-082bcd700e034e0b85a54bf82ba590ab
 
-dia
+diagram : 
+
 ![alt text](image.png)
