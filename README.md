@@ -18,3 +18,8 @@ Patients can have multiple appointments with different doctors.
 Doctors can have multiple appointments with different patients.
 Each appointment may have a corresponding medical record, and vice versa. 
 A medical facility can have multiple doctors, and a doctor can work in multiple medical facilities. This relationship is represented through a junction table.
+
+https://lily-plate-b6a.notion.site/Case-Study-082bcd700e034e0b85a54bf82ba590ab
+
+dia
+![alt text](image.png)
