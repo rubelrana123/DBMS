@@ -48,7 +48,8 @@ VALUES
 
      
      SELECT * FROM students
-     WHERE age != 20;
+     WHERE NOT age = 20;
+    --  WHERE age != 20;
      SELECT * FROM students
      WHERE age <= 20;
 
@@ -65,6 +66,10 @@ VALUES
       
       SELECT concat(first_name, ' ' , last_name) FROM students;
       SELECT length(first_name ) FROM students;
+      SELECT * FROM students
+      WHERE email IS   NULL ;
 
+    SELECT COALESCE(email, 'unknow@gmail.com') as Email FROM students
+    
       
 
