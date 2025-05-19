@@ -64,4 +64,7 @@ VALUES
 
       
       SELECT concat(first_name, ' ' , last_name) FROM students;
+      SELECT length(first_name ) FROM students;
+
       
+
