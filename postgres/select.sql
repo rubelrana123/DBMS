@@ -69,7 +69,7 @@ VALUES
       SELECT * FROM students
       WHERE email IS   NULL ;
 
-    SELECT COALESCE(email, 'unknow@gmail.com') as Email FROM students
+    SELECT COALESCE(email, 'unknow@gmail.com') as "Email" FROM students
     
       
 

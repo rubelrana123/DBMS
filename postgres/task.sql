@@ -137,4 +137,12 @@ SELECT * from student_table
 LIMIT 5 OFFSET (5 * 1)
 
 SELECT * from student_table
-LIMIT 5 OFFSET (5 * 3)
+LIMIT 5 OFFSET (5 * 3);
+INSERT INTO student_table (roll, name, age, department, score, student_email, last_login)
+VALUES (121, 'Umar Ali', 22, 'CSE', 81.5, 'umar.ali@gmail.com', '2025-05-19');
+
+
+SELECT * FROM student_table;
+update student_table
+ SET student_email = 'rajibbhai@gmail.com'
+ WHERE student_email IS NULL
