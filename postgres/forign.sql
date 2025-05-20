@@ -58,15 +58,6 @@ WHERE user_id = 3;
 
 INSERT INTO post(title, user_id) VALUES('test', 2);
 
-SELECT 
-    post.id AS post_id,
-    post.title,
-    post.user_id,
-    user_table.user_name
-FROM 
-    post
-JOIN 
-    user_table ON post.user_id = user_table.id;
 
 SELECT * from post;
 
