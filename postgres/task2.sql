@@ -102,6 +102,8 @@ GROUP BY department_name
 ORDER BY salary DESC;
 
 -- 5. **Count Employees Hired Each Year**
-SELECT extract(year from all_employees.hire_date) as year, count(*) FROM all_employees 
+
+
+SELECT extract(year from all_employees.hire_date) as year, count(*), all_departments.department_name FROM all_employees 
 JOIN all_departments USING(department_id)
- GROUP BY hire_date;
+ GROUP BY year , all_departments.department_name;
