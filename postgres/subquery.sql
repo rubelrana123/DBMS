@@ -75,5 +75,14 @@ WHERE department_name IN  (
 SELECT  department_name from workers --only accept sigle column
 WHERE department_name  LIKE '%R');
 --breakdown
-SELECT  department_name, employee_name from workers
+SELECT  department_name  from workers
 WHERE department_name  LIKE '%R'
+
+CREATE VIEW find_R_employe as
+SELECT employee_name, salary, department_name from workers
+WHERE department_name IN  (
+SELECT  department_name from workers --only accept sigle column
+WHERE department_name  LIKE '%R');
+
+SELECT * FROM find_r_employe;
+find_r_employe
