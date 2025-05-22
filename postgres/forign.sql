@@ -106,3 +106,5 @@ SELECT * from post;
  DROP TABLE post;
  DELETE FROM user_table
  WHERE id = 3;
+
+ CREATE DATABASE sessionDB;
