@@ -65,3 +65,5 @@ HAVING
     COUNT(order_id) > 2;
  
 select * from orders;
+
+SELECT version();
